@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b88d3ba-aeac-41bf-b6e2-1e66761472d9" name="Changes" comment="" />
+    <list default="true" id="6b88d3ba-aeac-41bf-b6e2-1e66761472d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Radio/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RadioTest/RadioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GB1Y2DXGPJA2CwFGAjYx8FSNbr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,6 +39,102 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RadioTest.shouldToStayZeroVolume">
+    <configuration name="RadioTest.shouldSetVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-incapsulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RadioTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RadioTest" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest.RadioTest" />
+      <option name="METHOD_NAME" value="shouldSetVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldToDecreaseVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-incapsulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RadioTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RadioTest" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest.RadioTest" />
+      <option name="METHOD_NAME" value="shouldToDecreaseVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldToStayTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-incapsulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RadioTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RadioTest" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest.RadioTest" />
+      <option name="METHOD_NAME" value="shouldToStayTen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldToStayZeroVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-incapsulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RadioTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RadioTest" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest.RadioTest" />
+      <option name="METHOD_NAME" value="shouldToStayZeroVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldToUpVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-incapsulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RadioTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RadioTest" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest.RadioTest" />
+      <option name="METHOD_NAME" value="shouldToUpVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RadioTest.shouldToStayZeroVolume" />
+        <item itemvalue="JUnit.RadioTest.shouldToDecreaseVolume" />
+        <item itemvalue="JUnit.RadioTest.shouldToUpVolume" />
+        <item itemvalue="JUnit.RadioTest.shouldToStayTen" />
+        <item itemvalue="JUnit.RadioTest.shouldSetVolume" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +145,16 @@
       <updated>1665847306372</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
