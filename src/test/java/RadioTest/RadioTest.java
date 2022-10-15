@@ -12,7 +12,19 @@ public class RadioTest {
 
         rad.setStationNumber(10);
 
-        int expected = 10;
+        int expected = 0;
+        int actual = rad.getStationNumber();
+
+        Assertions.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void shouldToSetStation() {
+        Radio rad = new Radio();
+
+        rad.setStationNumber(-2);
+
+        int expected = 0;
         int actual = rad.getStationNumber();
 
         Assertions.assertEquals(expected, actual);
@@ -140,6 +152,30 @@ public class RadioTest {
         rad.setVolume(0);
 
         rad.descreaseVolume();
+
+        int expected = 0;
+        int actual = rad.getVolume();
+
+        Assertions.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void shouldToVolume() { // Выставляет уровень звука
+        Radio rad = new Radio();
+
+        rad.setVolume(11);
+
+        int expected = 0;
+        int actual = rad.getVolume();
+
+        Assertions.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void shouldToSetVolume() {
+        Radio rad = new Radio();
+
+        rad.setVolume(-1);
 
         int expected = 0;
         int actual = rad.getVolume();
