@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b88d3ba-aeac-41bf-b6e2-1e66761472d9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Radio/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.shouldToSetVolume">
+  <component name="RunManager" selected="JUnit.RadioTest.shouldToStayTen">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework-incapsulation" />
       <extension name="coverage">
@@ -59,7 +60,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldSetStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldToStayTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework-incapsulation" />
       <extension name="coverage">
         <pattern>
@@ -69,39 +70,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="RadioTest" />
       <option name="MAIN_CLASS_NAME" value="RadioTest.RadioTest" />
-      <option name="METHOD_NAME" value="shouldSetStation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.shouldToSetStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homework-incapsulation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RadioTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RadioTest" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest.RadioTest" />
-      <option name="METHOD_NAME" value="shouldToSetStation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.shouldToSetVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homework-incapsulation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RadioTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RadioTest" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest.RadioTest" />
-      <option name="METHOD_NAME" value="shouldToSetVolume" />
+      <option name="METHOD_NAME" value="shouldToStayTen" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,13 +92,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest.testRadioStationNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-incapsulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RadioTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RadioTest" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest.RadioTest" />
+      <option name="METHOD_NAME" value="testRadioStationNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.testVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-incapsulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RadioTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RadioTest" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest.RadioTest" />
+      <option name="METHOD_NAME" value="testVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.shouldToSetVolume" />
+        <item itemvalue="JUnit.RadioTest.shouldToStayTen" />
         <item itemvalue="JUnit.RadioTest.shouldToVolume" />
-        <item itemvalue="JUnit.RadioTest.shouldToSetStation" />
-        <item itemvalue="JUnit.RadioTest.shouldSetStation" />
         <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.RadioTest.testVolume" />
+        <item itemvalue="JUnit.RadioTest.testRadioStationNumber" />
       </list>
     </recent_temporary>
   </component>
